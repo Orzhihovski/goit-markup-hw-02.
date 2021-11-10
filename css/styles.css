@@ -1,0 +1,161 @@
+:root {
+    --main-title-color: #212121;
+    --second-title-color: #757575;
+    --first-link-color: #FFFFFF;
+    --second-link-color: rgba(255, 255, 255, 0.6);
+    --accent-color: #2196F3;
+    --main-btn-color: #F5F4FA;
+    --second-btn-color: #2196F3;
+
+
+
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    background: #E5E5E5;
+}
+
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+.header-link {
+
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--main-title-color);
+}
+
+.header-mail {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color: var(--second-title-color);
+
+}
+.header-phone {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color: var(--second-title-color);
+}
+.header-logo {
+    font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+
+
+letter-spacing: 0.03em;
+
+color: #2196F3;
+
+}
+
+.btn-item:hover{
+    background-color: var(--accent-color);
+}
+
+.btn-item {
+    
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+
+
+letter-spacing: 0.03em;
+
+color: var(--main-title-color)
+}
+
+.filter-text {
+
+
+font-weight: bold;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.06em;
+
+color: var(--main-title-color)
+}
+
+.filter-second-text {
+    
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 187% */
+
+letter-spacing: 0.03em;
+
+color: var(--second-title-color);
+}
+
+.footer {
+    background: #2F303A;
+
+}
+   
+
+.footer-logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    
+    
+    letter-spacing: 0.03em;
+    
+    color: #2196F3;
+}
+
+.footer-item {
+
+font-weight: normal;
+font-size: 14px;
+line-height: 1.7;
+
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+
+.adres-link {
+
+font-size: 14px;
+line-height: 1.7;
+font-style: normal;
+
+letter-spacing: 0.03em;
+
+color: var(--first-link-color);
+}
+
+.footer-link {
+
+font-size: 14px;
+line-height: 1.71;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
